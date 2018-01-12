@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+''' Find rtl2838 and issue usb reset:
+Adapted from
+https://raspberrypiandstuff.wordpress.com/2017/08/04/rtl_433-on-a-raspberry-pi-made-bulletproof
+https://gist.github.com/x2q/5124616
+'''
+
 import sys, os
 import subprocess
 import fcntl
